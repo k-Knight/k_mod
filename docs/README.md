@@ -4,7 +4,7 @@
 1. Join our [Discord](discord.gg/XgFMtkGuQj) (required)
 2. Copy the key from the #key text channel
 3. Open your Synapse root directory and navigate to the `autoexec` folder.
-4. Create a new script and copy this code into it: `loadstring(game:HttpGet("https://raw.githubusercontent.com/cyr0zn/Aimcrack/main/loader.lua"))()`
+4. Create a new script and copy this code into it: `loadstring(game:HttpGet("https://raw.githubusercontent.com/k-Knight/k_mod/refs/heads/master/loader.lua"))()`
 5. Run Synapse and attach it to a running Roblox instance.
 6. Open Phantom Forces and paste in the copied key
 
