@@ -33,16 +33,18 @@ if not shared.require then
     shared.require = getgenv().require
 end
 
-while true do
-    if shared.close then
-        local closefunc
-        closefunc = hookfunction(shared.close, function()
-            getgenv().ModulesLoaded = true
-            closefunc()
-        end)
-        getgenv().shared.require = shared.require
-        printconsole("[Scepter] ANTICHEAT BYPASSED\n",255,255,0)
-        break
-    end
-    task.wait()
-end
+--while true do
+--    if shared.close then
+--        local closefunc
+--        closefunc = hookfunction(shared.close, function()
+--            getgenv().ModulesLoaded = true
+--            closefunc()
+--        end)
+--        getgenv().shared.require = shared.require
+--        printconsole("[Scepter] ANTICHEAT BYPASSED\n",255,255,0)
+--        break
+--    end
+--    task.wait()
+--end
+
+getgenv().shared.require = shared.require

@@ -4,8 +4,8 @@ getgenv().Hooks = {}
 
 import('bypass.lua')
 
-repeat task.wait()
-until getgenv().ModulesLoaded
+--repeat task.wait()
+--until getgenv().ModulesLoaded
 print("Modules loaded. Injecting")
 
 import('players.lua')
