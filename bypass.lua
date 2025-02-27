@@ -23,7 +23,7 @@ stepped__index = hookmetamethod(runService.Stepped, "__index", function(self, fu
     return func
 end)
 
-local shared=getrenv().shared
+local shared=getgenv().shared
 
 while true do
     if shared.close then
