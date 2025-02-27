@@ -1,4 +1,4 @@
-local replicationInterface = shared.require("ReplicationInterface")
+local replicationInterface = shared.require(ReplicationInterface)
 local playerService = game:GetService("Players")
 local teamService = game:GetService("Teams")
 
