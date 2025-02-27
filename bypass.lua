@@ -25,6 +25,14 @@ end)
 
 local shared=getgenv().shared
 
+if not shared then
+    shared = {}
+end
+
+if not shared.require then
+    shared.require = getgenv().require
+end
+
 while true do
     if shared.close then
         local closefunc
